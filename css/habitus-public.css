@@ -1,0 +1,115 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* table#habitus-tracking-data-table {
+    width: 600px;
+  } */
+  
+  tr:nth-child(odd) {
+    background-color: #eee;
+  }
+  
+
+  /* TRACKING DATA */
+  table#habitus-tracking-data-table th {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  table#habitus-tracking-data-table th,
+  td {
+    text-align: left;
+    padding: 0.5em 1em;
+  }
+  
+  /* TRACKING NAV */
+  section .date-nav {
+      width: 600px;
+  }
+
+  section#h-tracking-date-nav ul {
+    font-size: 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+      padding: 10px;
+      background-color: #555;
+      color: #fff;
+  }
+
+
+  /* TRACKING FORM */
+  section .habitus-trackit-form-display {
+    width: 600px;
+}
+  
+  
+
+  form#tracker .completed-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+  }
+
+  form#tracker .completed-cb {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+
+  form#tracker .comments-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+  }
+
+  form#tracker .comments-container textarea#comment {
+    display: block;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    width: 500px;
+  }
+
+  form#tracker .comments-container .comments-inner  {
+    width: 500px;
+  }
+
+  form#tracker .comments-container .comments-inner #submit-container  {
+    justify-content: right;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  svg:hover {
+    /* fill: #DA4567; */
+    cursor: pointer;
+    }
+
+    /*MEDIA QUERIES */
+    @media only screen and (min-width: 1100px) {
+       #new-challenge {
+        max-width: 75%;
+      }
+    }
+
+  /* BUDDYPRESS SPECIFIC STYLES */
+
+  /* notification settings table headings */
+  #settings-form .notification-settings th {
+    color: #fff;
+  }
+  
